@@ -1,0 +1,40 @@
+ackage customerdriver;
+
+public class customerdriver {
+
+	public static void main(String[] args, Object firstName, Object lastName, Object Address) {
+		// TODO Auto-generated method stub
+Customer customer = new Customer(firstName, lastName, Address);
+
+System.out.println("Customer:" + firstName + "" + lastName + "" + Address);
+
+public class Customer {
+private String firstName;
+private String lastName;
+private double Address;
+public Customer(Object firstName, Object lastName, Object address) {
+	// TODO Auto-generated constructor stub
+}
+public String getLastName() {
+	return lastName;
+}
+public void setLastName(String lastName) {
+	this.lastName = lastName;
+}
+public String getFirstName() {
+	return firstName;
+}
+public void setFirstName(String firstName) {
+	this.firstName = firstName;
+}
+public double getAddress() {
+	return Address;
+}
+public void setAddress(double address) {
+	Address = address;
+	
+	System.out.println("Customer:" + firstName + "" + lastName + "" + address);
+
+	}
+ }
+  
