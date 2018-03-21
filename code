@@ -1,34 +1,11 @@
 package customerdriver;
 
-public class Customer {
-private String firstName;
-private String lastName;
-private double Address;
-public Customer(String firstName, String lastName, String address) {
-	// TODO Auto-generated constructor stub
-}
+public class customerdriver {
 
+	public static void main(String[] args, String firstName, String lastName,  String Address) {
+		// TODO Auto-generated method stub
+		Customer customer = new Customer("Kevin", "Smith", "427 Ernest Way");
+		
+		System.out.println(customer);
+		
 
-public String getLastName() {
-	return lastName;
-}
-public void setLastName(String lastName) {
-	this.lastName = lastName;
-}
-public String getFirstName() {
-	return firstName;
-}
-public void setFirstName(String firstName) {
-	this.firstName = firstName;
-}
-public double getAddress() {
-	return Address;
-}
-public void setAddress(double address) {
-	Address = address;
-	
-	System.out.println("Customer:" + firstName + "" + lastName + "" + address);
-
-}
-
-}
