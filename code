@@ -6,6 +6,17 @@ public class customerdriver {
 		// TODO Auto-generated method stub
 		Customer customer = new Customer("Kevin", "Smith", "427 Ernest Way");
 		
+		
+		Item item1 = new Item("2.95", "soap", "2 oz");
+		Item item2 = new Item("3.15", "cereal", "64 oz");
+		Item item3 = new Item("1.57", "soda", "16 oz");
+	
+		System.out.println(item1);
+		System.out.println(item2);
+		System.out.println(item3);
+	
 		System.out.println(customer);
+		
+		
 		
 
