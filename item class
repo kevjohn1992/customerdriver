@@ -1,0 +1,34 @@
+package customerdriver;
+
+public class Item {
+
+private double price;
+private String name;
+private double size;
+
+public Item(int price, String name, int size)	{
+ 
+	// TODO Auto-generated constructor stub
+}
+// TODO Auto-generated method stub
+public double getprice() {
+	return price;
+	}
+public void setprice(int price) {
+ this.price = price;
+	}
+public String getname()	{
+	return name;
+	}
+public void setname(String name)	{
+	this.name = name;
+	}
+public double getsize()	{
+	return size;
+	}
+public void setsize(int size)	{
+	this.size = size;
+	
+
+}
+}
